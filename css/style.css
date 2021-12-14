@@ -104,3 +104,39 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.section__productive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__productive div {
+  width: 50%;
+}
+
+.section__productive div:nth-child(1) {
+  text-align: center;
+}
+
+.image__productive {
+  max-width: 480px;
+}
+
+.title__productive {
+  color: #fff;
+  margin-bottom: 20px;
+  width: 35%;
+}
+
+.p__productive {
+  color: #fff;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.link__productive {
+  margin-top: 20px;
+  color: hsl(176, 68%, 64%);
+  text-decoration: underline;
+}
