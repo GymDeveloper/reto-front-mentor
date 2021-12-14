@@ -77,4 +77,30 @@ a {
   font-weight: 700;
   border-radius: 30px;
   cursor: pointer;
+  font-size: 16px;
+}
+
+.service__section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.service__section div {
+  width: 50%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service__section__child {
+  color: #fff;
+  max-width: 40%;
+}
+
+.service__section__child h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
