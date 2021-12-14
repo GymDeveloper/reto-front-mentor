@@ -140,3 +140,43 @@ a {
   color: hsl(176, 68%, 64%);
   text-decoration: underline;
 }
+
+.section__people {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.container__person {
+  background-color: hsl(219, 30%, 18%);
+  width: 27%;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.section__person {
+  display: flex;
+  margin-top: 30px;
+}
+
+.image__profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.position {
+  margin-left: 10px;
+}
+
+.quotes {
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  left: -5px;
+}
